@@ -1,0 +1,59 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto b8edc9352d344e1d8a18c47f17b06107 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project_screentest_behav xil_defaultlib.project_screentest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1374] size mismatch in mixed language port association, vhdl port reset [C:/Users/Randy/Desktop/Comp541/Lab10/Lab10.srcs/sources_1/imports/new/accelerometer.sv:27]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 13 for port rwaddr [C:/Users/Randy/Desktop/Comp541/Lab10/Lab10.srcs/sources_1/new/memIO.sv:63]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.math_real
+Compiling module unisims_ver.MMCME2_ADV(BANDWIDTH="OPTIMIZED"...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.INV
+Compiling module unisims_ver.BUFGCTRL(PRESELECT_I0="TRUE")
+Compiling module unisims_ver.BUFGMUX(CLK_SEL_TYPE="ASYNC")
+Compiling module xil_defaultlib.clockdivider_Nexys4
+Compiling module xil_defaultlib.hexto7seg
+Compiling module xil_defaultlib.display8digit
+Compiling module xil_defaultlib.xycounter(width=800,height=525)
+Compiling module xil_defaultlib.vgatimer
+Compiling module xil_defaultlib.bitmapmem(chars=16,mem_per_char=...
+Compiling module xil_defaultlib.vgadisplaydriver(initfile="bitma...
+Compiling module xil_defaultlib.keyboard
+Compiling architecture behavioral of entity xil_defaultlib.SPI_If [spi_if_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADXL362Ctrl [\ADXL362Ctrl(update_frequency_hz...]
+Compiling architecture behavioral of entity xil_defaultlib.AccelArithmetics [\AccelArithmetics(acc_x_y_max="0...]
+Compiling architecture behavioral of entity xil_defaultlib.AccelerometerCtl [accelerometerctl_default]
+Compiling module xil_defaultlib.accelerometer
+Compiling module xil_defaultlib.montek_sound_Nexys4
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.adder(N=32)
+Compiling module xil_defaultlib.addsub(N=32)
+Compiling module xil_defaultlib.shifter(N=32)
+Compiling module xil_defaultlib.logical(N=32)
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.register_file(initfile="reg_data...
+Compiling module xil_defaultlib.fulldatapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem(initfile="instr_data.mem")
+Compiling module xil_defaultlib.ram_module(Nloc=1024,Dbits=32,in...
+Compiling module xil_defaultlib.dmem(Nloc=1024,initfile="mem_dat...
+Compiling module xil_defaultlib.screenmem(xsize=40,ysize=30,init...
+Compiling module xil_defaultlib.memIO(initmem="mem_data.mem",ini...
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.selfcheck_nopause
+Compiling module xil_defaultlib.project_screentest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot project_screentest_behav
